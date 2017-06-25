@@ -5,6 +5,10 @@ body {
 
 header {
   padding: 20px 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 header .row,
@@ -36,6 +40,9 @@ header p {
   color: #ffffff;
   height: auto;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+  background-position: -webkit-sticky;
+  background-position: sticky;
+  background-top: 0;
 }
 
 .jumbotron h2 {
