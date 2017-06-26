@@ -5,10 +5,6 @@ body {
 
 header {
   padding: 20px 0;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: white;
 }
 
 header .row,
@@ -35,27 +31,13 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('http://res.cloudinary.com/hl5tw49u2/image/upload/v1498417698/background_kec8lg.png');
+  background-image: url('/images/background.png');
   background-size: cover;
   color: #ffffff;
-  height: auto;
+  height: 100%;
   text-shadow: 0.25px 0.25px 0.25px #000000;
-  background-position: -webkit-sticky;
-  background-position: sticky;
-  background-top: 0;
 }
 
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
-}
-
-.jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
-}
 
 section .row img {
   margin: 0 0 30px;
@@ -85,21 +67,11 @@ section .row img {
   margin: 0 0 30px;
 }
 
-footer {
-  font-size: 12px;
-  padding: 20px 0;
+footer .col{
+
 }
 
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
 
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
+.fa {
+  color: navy;
 }
